@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class ParametrosInvalidosException extends  Exception{
 
-public class ParametrosInvalidosException {
+    public ParametrosInvalidosException(String message) {
+        super(message);
+    }
+
 }
